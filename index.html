@@ -4,41 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lato&family=Merriweather:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="estilo.css">
-    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;0,900;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Studio Ghibli</title>
 </head>
-<body class="corpo__principal">
-    <section class="corpo__principal__imagem">
-        <img class="imagem" src="img/undraw_About_us_page_re_2jfm 1.svg" alt="imagem com pagina web desenhada.">
+<header class="cabecalho">
+    <img class="logo" src="img/logo.svg" alt="logo Studio Ghibli">
+    <section class="redes__sociais">
+        <a href="#">
+            <img src="img/facebook.svg" alt="icone do facebook">
+        </a>
+        <a href="#">
+            <img src="img/instagram.svg" alt="icone do instagram">
+        </a>
+        <a href="#">
+            <img src="img/twitter.svg" alt="icone do twitter">
+        </a>
+        <a href="#">
+            <img src="img/youtube.svg" alt="icone do youtube">
+        </a>
     </section>
-    <section class="corpo__principal__texto">
-        <h3 class="subtitulo">Bem vindo de volta</h3>
-        <h2 class="titulo">Faça login na sua conta</h2>
-        <form class="form">
-            <div class="form__input">
-                <label class="input__texto" for="email">E-mail</label>
-                <input class="input__caixa" type="email" id="email" name="email" placeholder="Digite seu email" required>
-            </div>
-            <div class="form__input">
-                <label class="input__texto" for="password">Senha</label>
-                <input class="input__caixa" type="password" id="password" name="password" placeholder="Digite sua senha" required>
-            </div>
-            <div class="ancoras">
-                <input class="checkbox" type="checkbox" id="checkbox" name="checkbox">
-                <label class="ancora__comum" for="checkbox">Lembre de mim</label>
-                <a href="#" class="ancora__colorida">Esqueceu sua senha?</a>
-            </div>
-            <div class="botoes">
-                <button class="botao__enviar" type="submit">Entrar</button>
-                <button class="botao__google"><img src="img/iconfinder_Google_1298745 1.svg">Ou faça login com o Google</button>
-            </div>
-        </form>
-        <section class="footer">
-            <p class="footer__texto">Não tem uma conta?</p>
-            <a href="#" class="footer__ancora">Cadastre-se</a>
+</header>
+<body>
+    <section class="corpo__principal">
+        <section class="corpo__principal__texto">
+            <h2 class="subtitulo">HAYAO MIYAZAKI</h2>
+            <h1 class="titulo">A VIAGEM DE CHIHIRO</h1>
+            <p class="texto">Chihiro chega a um mundo mágico dominado por uma bruxa. Aqueles que a desobedecem são transformados em animais.</p>
+            <section class="botoes">
+                <button class="botao__assistir__agora">ASSISTIR AGORA</button>
+                <button class="botao__assistir__trailer">ASSISTA O TRAILER</button>
+            </section>
         </section>
-
+        <img class="corpo__principal__imagem" src="img/image.svg" alt="imagem de dois fantasmas fofos"> 
     </section>
 </body>
 </html>
